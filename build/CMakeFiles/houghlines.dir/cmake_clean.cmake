@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/houghlines.dir/houghlines.cpp.o"
-  "CMakeFiles/houghlines.dir/houghlines.cpp.o.d"
+  "CMakeFiles/houghlines.dir/houghLines.cpp.o"
+  "CMakeFiles/houghlines.dir/houghLines.cpp.o.d"
   "houghlines"
   "houghlines.pdb"
 )

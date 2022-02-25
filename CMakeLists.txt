@@ -25,12 +25,12 @@ find_package(Threads REQUIRED)
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 # specify the executable target to be built
-add_executable(houghlines houghlines.cpp)
+add_executable(houghlines houghLines.cpp)
+add_executable(houghcircles houghCircles.cpp)
 # add_executable(canny_img canny_image.cpp)
 # add_executable(videocap videocap.cpp)
 # tell it to link the executable target against OpenCV
 target_link_libraries(houghlines ${OpenCV_LIBS}  ${CMAKE_THREAD_LIBS_INIT} )
-# target_link_libraries(canny_img ${OpenCV_LIBS})
-# target_link_libraries(videocap ${OpenCV_LIBS})
+target_link_libraries(houghcircles ${OpenCV_LIBS}  ${CMAKE_THREAD_LIBS_INIT} )
 
 

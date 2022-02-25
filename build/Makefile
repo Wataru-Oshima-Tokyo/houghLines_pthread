@@ -129,29 +129,66 @@ houghlines/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/build
 .PHONY : houghlines/fast
 
-houghlines.o: houghlines.cpp.o
-.PHONY : houghlines.o
+#=============================================================================
+# Target rules for targets named houghcircles
+
+# Build rule for target.
+houghcircles: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 houghcircles
+.PHONY : houghcircles
+
+# fast build rule for target.
+houghcircles/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircles.dir/build.make CMakeFiles/houghcircles.dir/build
+.PHONY : houghcircles/fast
+
+houghCircles.o: houghCircles.cpp.o
+.PHONY : houghCircles.o
 
 # target to build an object file
-houghlines.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/houghlines.cpp.o
-.PHONY : houghlines.cpp.o
+houghCircles.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircles.dir/build.make CMakeFiles/houghcircles.dir/houghCircles.cpp.o
+.PHONY : houghCircles.cpp.o
 
-houghlines.i: houghlines.cpp.i
-.PHONY : houghlines.i
+houghCircles.i: houghCircles.cpp.i
+.PHONY : houghCircles.i
 
 # target to preprocess a source file
-houghlines.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/houghlines.cpp.i
-.PHONY : houghlines.cpp.i
+houghCircles.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircles.dir/build.make CMakeFiles/houghcircles.dir/houghCircles.cpp.i
+.PHONY : houghCircles.cpp.i
 
-houghlines.s: houghlines.cpp.s
-.PHONY : houghlines.s
+houghCircles.s: houghCircles.cpp.s
+.PHONY : houghCircles.s
 
 # target to generate assembly for a file
-houghlines.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/houghlines.cpp.s
-.PHONY : houghlines.cpp.s
+houghCircles.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghcircles.dir/build.make CMakeFiles/houghcircles.dir/houghCircles.cpp.s
+.PHONY : houghCircles.cpp.s
+
+houghLines.o: houghLines.cpp.o
+.PHONY : houghLines.o
+
+# target to build an object file
+houghLines.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/houghLines.cpp.o
+.PHONY : houghLines.cpp.o
+
+houghLines.i: houghLines.cpp.i
+.PHONY : houghLines.i
+
+# target to preprocess a source file
+houghLines.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/houghLines.cpp.i
+.PHONY : houghLines.cpp.i
+
+houghLines.s: houghLines.cpp.s
+.PHONY : houghLines.s
+
+# target to generate assembly for a file
+houghLines.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlines.dir/build.make CMakeFiles/houghlines.dir/houghLines.cpp.s
+.PHONY : houghLines.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... houghcircles"
 	@echo "... houghlines"
-	@echo "... houghlines.o"
-	@echo "... houghlines.i"
-	@echo "... houghlines.s"
+	@echo "... houghCircles.o"
+	@echo "... houghCircles.i"
+	@echo "... houghCircles.s"
+	@echo "... houghLines.o"
+	@echo "... houghLines.i"
+	@echo "... houghLines.s"
 .PHONY : help
 
 

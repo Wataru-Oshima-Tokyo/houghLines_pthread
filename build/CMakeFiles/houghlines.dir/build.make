@@ -69,28 +69,28 @@ include CMakeFiles/houghlines.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/houghlines.dir/flags.make
 
-CMakeFiles/houghlines.dir/houghlines.cpp.o: CMakeFiles/houghlines.dir/flags.make
-CMakeFiles/houghlines.dir/houghlines.cpp.o: ../houghlines.cpp
-CMakeFiles/houghlines.dir/houghlines.cpp.o: CMakeFiles/houghlines.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wataruoshima/CSCI612/assignments/week5-6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/houghlines.dir/houghlines.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/houghlines.dir/houghlines.cpp.o -MF CMakeFiles/houghlines.dir/houghlines.cpp.o.d -o CMakeFiles/houghlines.dir/houghlines.cpp.o -c /Users/wataruoshima/CSCI612/assignments/week5-6/houghlines.cpp
+CMakeFiles/houghlines.dir/houghLines.cpp.o: CMakeFiles/houghlines.dir/flags.make
+CMakeFiles/houghlines.dir/houghLines.cpp.o: ../houghLines.cpp
+CMakeFiles/houghlines.dir/houghLines.cpp.o: CMakeFiles/houghlines.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wataruoshima/CSCI612/assignments/week5-6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/houghlines.dir/houghLines.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/houghlines.dir/houghLines.cpp.o -MF CMakeFiles/houghlines.dir/houghLines.cpp.o.d -o CMakeFiles/houghlines.dir/houghLines.cpp.o -c /Users/wataruoshima/CSCI612/assignments/week5-6/houghLines.cpp
 
-CMakeFiles/houghlines.dir/houghlines.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/houghlines.dir/houghlines.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wataruoshima/CSCI612/assignments/week5-6/houghlines.cpp > CMakeFiles/houghlines.dir/houghlines.cpp.i
+CMakeFiles/houghlines.dir/houghLines.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/houghlines.dir/houghLines.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wataruoshima/CSCI612/assignments/week5-6/houghLines.cpp > CMakeFiles/houghlines.dir/houghLines.cpp.i
 
-CMakeFiles/houghlines.dir/houghlines.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/houghlines.dir/houghlines.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wataruoshima/CSCI612/assignments/week5-6/houghlines.cpp -o CMakeFiles/houghlines.dir/houghlines.cpp.s
+CMakeFiles/houghlines.dir/houghLines.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/houghlines.dir/houghLines.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wataruoshima/CSCI612/assignments/week5-6/houghLines.cpp -o CMakeFiles/houghlines.dir/houghLines.cpp.s
 
 # Object files for target houghlines
 houghlines_OBJECTS = \
-"CMakeFiles/houghlines.dir/houghlines.cpp.o"
+"CMakeFiles/houghlines.dir/houghLines.cpp.o"
 
 # External object files for target houghlines
 houghlines_EXTERNAL_OBJECTS =
 
-houghlines: CMakeFiles/houghlines.dir/houghlines.cpp.o
+houghlines: CMakeFiles/houghlines.dir/houghLines.cpp.o
 houghlines: CMakeFiles/houghlines.dir/build.make
 houghlines: /usr/local/lib/libopencv_gapi.4.5.5.dylib
 houghlines: /usr/local/lib/libopencv_highgui.4.5.5.dylib
